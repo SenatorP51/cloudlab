@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-test"
-  env: "dockertest-env"
+  app: "docker-test2"
+  env: "Dockertest2-env"
   bucket_name: "elasticbeanstalk-us-east-2-039699603980"
-  bucket_path: "docker-test"
+  bucket_path: "docker-test2"
   edge: true
   on:
     branch: main
